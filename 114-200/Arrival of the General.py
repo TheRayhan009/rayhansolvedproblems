@@ -1,0 +1,7 @@
+oparetions=int(input())
+solgers=list(map(int,input().split()))
+maximum_higth=max(solgers)
+minimum_higth=min(solgers)
+first_solger=solgers.index(maximum_higth)
+secund_solger=solgers.index(minimum_higth)
+print(first_solger+(secund_solger-first_solger))

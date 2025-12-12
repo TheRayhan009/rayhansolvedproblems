@@ -1,0 +1,12 @@
+k=int(input())
+l=int(input())
+m=int(input())
+n=int(input())
+d=int(input())
+numbers_of_k=list(range(k,d+1,k))
+numbers_of_l=list(range(l,d+1,l))
+numbers_of_m=list(range(m,d+1,m))
+numbers_of_n=list(range(n,d+1,n))
+num_set=set(numbers_of_k+numbers_of_l+numbers_of_m+numbers_of_n)
+print(len(num_set))
+#end!

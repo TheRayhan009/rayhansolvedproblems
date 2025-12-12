@@ -1,0 +1,32 @@
+num=float(input())
+num2=int(num)
+if int(num)>=0 and int(num)<=10:
+	print("[+.........]",end=" ")
+	print(* str(num2),"%",sep="")
+elif int(num)>10 and int(num)<=20:
+	print("[++........]",end=" ")
+	print(* str(num2),"%",sep="")
+elif int(num)>20 and int(num)<=30:
+	print("[+++.......]",end=" ")
+	print(* str(num2),"%",sep="")
+elif int(num)>30 and int(num)<=40:
+	print("[++++......]",end=" ")
+	print(* str(num2),"%",sep="")
+elif int(num)>40 and int(num)<=50:
+	print("[+++++.....]",end=" ")
+	print(* str(num2),"%",sep="")
+elif int(num)>50 and int(num)<=60:
+	print("[++++++....]",end=" ")
+	print(* str(num2),"%",sep="")
+elif int(num)>60 and int(num)<=70:
+	print("[+++++++...]",end=" ")
+	print(* str(num2),"%",sep="")
+elif int(num)>70 and int(num)<=80:
+	print("[++++++++..]",end=" ")
+	print(* str(num2),"%",sep="")
+elif int(num)>80 and int(num)<=90:
+	print("[+++++++++.]",end=" ")
+	print(* str(num2),"%",sep="")
+elif int(num)==100:
+	print("[++++++++++]",end=" ")
+	print(* str(num2),"%",sep="")

@@ -1,0 +1,10 @@
+a=int(input())
+b=int(input())
+c=int(input())
+f1=a+b*c 
+f2=a*(b+c) 
+f3=a*b*c 
+f4=(a+b)*c 
+f5=a+b+c
+ans=max(f1,f2,f3,f4,f5)
+print(ans)
