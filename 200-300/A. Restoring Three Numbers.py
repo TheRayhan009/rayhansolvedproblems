@@ -5,19 +5,17 @@
 # print(S_list[-1]-S_list[0],S_list[-1]-S_list[1],S_list[-1]-S_list[2],sep=" ")
 
 
-lengthx,l,m,n=map(int,input().split())
-S_list=list(sorted([l,m,n]))
-count = 1;
+oparetion = int(input())
+for i in range(oparetion):
+    n=int(input())
+    l=list(range(1,(n*2)+1))
 
-for i in range(lengthx):
-    if lengthx-S_list[0] > S_list[1]:
-        lengthx-=S_list[0]
-        count+=1
-    elif lengthx-S_list[1] > S_list[2]:
-        lengthx-=S_list[1]
-        count+=1
-    else:
-        count+=1
-        break
+    print(" ".join(map(str, l[n:])))
 
-print(count)
+    # for j in range(n-1):
+    #     l.append(l[j]+l[j+1])
+    # setx=set(l)
+    # setx=list(setx)
+    # print(setx,sep=" ")
+
+    
